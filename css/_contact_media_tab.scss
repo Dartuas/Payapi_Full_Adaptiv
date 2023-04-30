@@ -1,0 +1,52 @@
+@media (max-width: 768px) {
+  .headerContact {
+    .cConteiner {
+      max-width: 573px;
+      .hContact {
+        font-size: 49px;
+      }
+    }
+  }
+  .mainContact {
+    min-height: 1115px;
+    .contactForm {
+      //   max-width: 445px;
+      flex-direction: column;
+      gap: 64px;
+
+      .mainForm {
+        order: 1;
+
+        .inputC,
+        .textareaC,
+        .checkboxC {
+          min-width: 445px;
+          margin-right: auto;
+          margin-left: auto;
+        }
+        .checkboxC {
+          .checkP {
+            margin-bottom: 23px;
+          }
+        }
+        .conteinerBtn {
+          min-width: 445px;
+          margin-right: auto;
+          margin-left: auto;
+        }
+      }
+      .contactLogoC {
+        order: 2;
+        .contactP {
+          text-align: center;
+          margin-right: auto;
+          margin-left: auto;
+        }
+        .firmLogosC {
+          margin-right: auto;
+          margin-left: auto;
+        }
+      }
+    }
+  }
+}

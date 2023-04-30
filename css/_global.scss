@@ -1,0 +1,6 @@
+@mixin button {
+  @extend %button-style;
+  :hover {
+    @extend %button-hover;
+  }
+}

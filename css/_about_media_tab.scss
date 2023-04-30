@@ -1,0 +1,45 @@
+@media (max-width: 768px) {
+  .headerAbout {
+    min-height: 341px;
+    background-image: url("../img/about/ellipse_top_tab_about.svg");
+    .hConteiner {
+      padding-top: 75px;
+      .hAbout {
+        font-size: 48px;
+        text-align: center;
+      }
+    }
+  }
+  .mainAbout {
+    min-height: 1440px;
+    background-image: none;
+    padding-top: 64px;
+    .ourVision {
+      gap: 64px;
+      padding-bottom: 0;
+      .visionBisness {
+        margin-right: auto;
+        margin-left: auto;
+        gap: 10px;
+        .ourVisionH {
+          min-width: 223px;
+        }
+        .ourVisionP {
+          max-width: 456px;
+        }
+      }
+    }
+    .imgWidth {
+      padding-top: 92px;
+    }
+    .statistics {
+      max-width: 689px;
+      .borderAbout {
+        min-width: 223px;
+      }
+    }
+    .formready {
+      padding-top: 72px;
+    }
+  }
+}

@@ -1,0 +1,125 @@
+@media (max-width: 768px) {
+  .header {
+    min-height: 809px;
+    padding-bottom: 100px;
+    background-image: url("../img/ellipse_top_tab.svg");
+  }
+  .header .mobiletop.imgmob {
+    display: none;
+    visibility: hidden;
+  }
+  .header .fbx {
+    max-width: 689px;
+  }
+  .header .start {
+    align-items: center;
+    flex-direction: column;
+  }
+  .header .start .form {
+    min-height: 225px;
+    align-items: center;
+    order: 2;
+    margin: 0;
+  }
+  .header .start .form h1 {
+    height: 122px;
+    font-family: "DM Serif Display", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.369231px;
+    color: #36536b;
+  }
+  .header .start .mobiletop {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    order: 1;
+    justify-content: center;
+  }
+
+  .main {
+    min-height: 2508px;
+  }
+  .main .blackform {
+    padding-top: 88px;
+    padding-bottom: 88px;
+    min-height: 615px;
+    background-image: url("../img/ellipse_center_tab.svg");
+  }
+  .main .blackform .black {
+    flex-direction: column;
+  }
+  .main .blackform .black .workwith {
+    margin-right: auto;
+    margin-left: auto;
+    order: 2;
+  }
+  .main .blackform .black .workwith h2,
+.main .blackform .black .workwith p {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main .blackform .black .workwith .about {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main .blackform .black .firmlogos {
+    order: 1;
+    margin-bottom: 23px;
+  }
+  .main .codeform {
+    max-width: 573px;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 0;
+  }
+  .main .codeform .codeimg {
+    padding-bottom: 48px;
+  }
+  .main .codeform .codeimg .codeimgTab {
+    width: 410px;
+    height: 250px;
+  }
+  .main .codeform .textcode h2,
+.main .codeform .textcode p {
+    max-width: 573px;
+    text-align: center;
+  }
+  .main .mobconteiner {
+    background-image: none;
+  }
+  .main .mobconteiner .mobilebottom {
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .main .mobconteiner .mobilebottom .textbottom {
+    margin-right: auto;
+    margin-left: auto;
+    order: 2;
+  }
+  .main .mobconteiner .mobilebottom .textbottom h2,
+.main .mobconteiner .mobilebottom .textbottom p {
+    text-align: center;
+  }
+  .main .mobconteiner .mobilebottom .mobiledbimg {
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    order: 1;
+  }
+  .main .formready {
+    flex-direction: column;
+    padding-bottom: 100px;
+    gap: 40px;
+  }
+
+  footer .sectionfooter {
+    max-width: 689px;
+  }
+}

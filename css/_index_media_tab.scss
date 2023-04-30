@@ -1,0 +1,124 @@
+@media (max-width: 768px) {
+  .header {
+    min-height: 809px;
+    padding-bottom: 100px;
+    background-image: url("../img/ellipse_top_tab.svg");
+    .fbx {
+      max-width: 689px;
+    }
+    .start {
+      align-items: center;
+      flex-direction: column;
+      .form {
+        min-height: 225px;
+        align-items: center;
+        order: 2;
+        margin: 0;
+        h1 {
+          height: 122px;
+          font-family: "DM Serif Display", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 48px;
+          line-height: 56px;
+          text-align: center;
+          letter-spacing: -0.369231px;
+
+          color: #36536b;
+        }
+      }
+      .mobiletop {
+        margin-top: 48px;
+        margin-bottom: 48px;
+        margin-right: auto;
+        margin-left: auto;
+        order: 1;
+        justify-content: center;
+      }
+    }
+  }
+  .main {
+    min-height: 2508px;
+    .blackform {
+      padding-top: 88px;
+      padding-bottom: 88px;
+      min-height: 615px;
+      background-image: url("../img/ellipse_center_tab.svg");
+      .black {
+        flex-direction: column;
+        .workwith {
+          margin-right: auto;
+          margin-left: auto;
+          order: 2;
+          h2,
+          p {
+            text-align: center;
+            margin-right: auto;
+            margin-left: auto;
+          }
+          .about {
+            margin-right: auto;
+            margin-left: auto;
+          }
+        }
+        .firmlogos {
+          order: 1;
+          margin-bottom: 23px;
+        }
+      }
+    }
+    .codeform {
+      max-width: 573px;
+      flex-direction: column;
+      margin-top: 100px;
+      padding: 0;
+      .codeimg {
+        padding-bottom: 48px;
+        .codeimgTab {
+          width: 410px;
+          height: 250px;
+        }
+      }
+      .textcode {
+        h2,
+        p {
+          max-width: 573px;
+          text-align: center;
+        }
+      }
+    }
+    .mobconteiner {
+      background-image: none;
+      .mobilebottom {
+        flex-direction: column;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        .textbottom {
+          margin-right: auto;
+          margin-left: auto;
+          order: 2;
+          h2,
+          p {
+            text-align: center;
+          }
+        }
+        .mobiledbimg {
+          margin-bottom: 48px;
+          margin-right: auto;
+          margin-left: auto;
+          order: 1;
+        }
+      }
+    }
+    .formready {
+      flex-direction: column;
+      padding-bottom: 100px;
+      gap: 40px;
+    }
+  }
+  footer {
+    .sectionfooter {
+      max-width: 689px;
+    }
+  }
+}

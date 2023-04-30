@@ -1,0 +1,1464 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.mainContact .contactForm .mainForm .btnC, .mainPrice .fbxP .planP .btnP, .main .formready .mailinput .btn, .main .blackform .black .workwith .about {
+  background-color: #ba4270;
+  min-width: 173px;
+  height: 48px;
+  border-radius: 24px;
+  border: none;
+  color: #fbfcfe;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  transition: all ease-in-out 0.5s;
+  margin-left: auto;
+}
+
+.headerAbout .hConteiner .hAbout, .headerPrice .hPrice {
+  margin-top: 82px;
+  padding-bottom: 27px;
+  margin-right: auto;
+  margin-left: auto;
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -0.430769px;
+  color: #36536b;
+}
+
+* body {
+  background-color: #edf3f8;
+}
+
+.conteiner {
+  max-width: 1460px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.conteinerSecond {
+  max-width: 1130px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.conteinerThird {
+  max-width: 940px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.header {
+  min-height: 736px;
+  background-image: url("../img/ellipse.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  padding-top: 40px;
+  padding-bottom: 75px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header .fbx {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 65px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header .logo {
+  display: flex;
+}
+.header .menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .menu ul {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.header .menu ul a {
+  color: #36536b;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  transition: all ease-in-out 0.5s;
+}
+.header .menu ul a:hover {
+  opacity: 1;
+}
+.header .btn {
+  background-color: #ba4270;
+  min-width: 173px;
+  height: 48px;
+  border-radius: 24px;
+  border: none;
+  color: #fbfcfe;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: -0.1px;
+  text-align: center;
+  transition: all ease-in-out 0.5s;
+  margin-left: auto;
+}
+.header .btn:hover {
+  background-color: #da6d97;
+}
+.header .burgerMenu {
+  display: none;
+}
+.header .start {
+  min-height: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+}
+.header .start .form {
+  max-width: 546px;
+  min-height: 345px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+  margin-top: 152px;
+}
+.header .start .form h1 {
+  color: #36536b;
+  height: 243px;
+  font-family: "DM Serif Display", serif;
+  font-size: 72px;
+  font-weight: 400;
+  line-height: 72px;
+  letter-spacing: -0.5538461804px;
+  text-align: left;
+}
+.header .start .form .mailinput {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fbfcfe;
+  width: 445px;
+  height: 48px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+.header .start .form .mailinput input {
+  color: #6c8294;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding-left: 27px;
+}
+.header .start .form .mailinput input::-moz-placeholder {
+  color: #6c8294;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.header .start .form .mailinput input::placeholder {
+  color: #6c8294;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.header .start .form .spangroup {
+  display: flex;
+  /* width: 225px; */
+  height: 18px;
+  align-items: center;
+  justify-content: center;
+  margin-right: auto;
+  padding-left: 24px;
+}
+.header .start .form .spangroup .colortop {
+  color: #6c8294;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.header .start .form .spangroup .contact_us {
+  text-decoration: none;
+}
+.header .start .form .spangroup .colortopsecond {
+  color: #6c8294;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.header .start .form .btnMobile {
+  display: none;
+  overflow: hidden;
+}
+.header .start .mobiletop {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 74px;
+  margin-right: 97px;
+}
+.header .start .mobiletop .imgmob {
+  border-radius: 30px;
+}
+
+.main {
+  min-height: 1760px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.main .blackform {
+  background-color: #1b262f;
+  background-image: url(../img/ellips2.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  max-width: 1460px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.main .blackform .black {
+  min-width: 1130px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .blackform .black .workwith {
+  max-width: 445px;
+  min-height: 272px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main .blackform .black .workwith h2 {
+  color: #fbfcfe;
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.369230777px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.main .blackform .black .workwith p {
+  min-height: 112px;
+  color: #fbfcfe;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 32px;
+}
+.main .blackform .black .workwith .about {
+  min-width: 129px;
+  border: 2px solid #fbfcfe;
+  background-color: transparent;
+  margin: 0;
+}
+.main .blackform .black .workwith .about:hover {
+  background: #ffffff;
+  color: #1b262f;
+}
+.main .blackform .black .firmlogos {
+  max-width: 536px;
+  min-height: 103px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 46px 61px;
+}
+.main .blackform .black .firmlogos .oracle {
+  width: 130px;
+  height: 35px;
+}
+.main .blackform .black .firmlogos .google {
+  width: 141px;
+  height: 35px;
+}
+.main .blackform .black .firmlogos .nvidia {
+  width: 142px;
+  height: 35px;
+}
+.main .codeform {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  padding-top: 150px;
+  padding-right: 97px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.main .codeform .codeimg {
+  border-radius: 8px;
+}
+.main .codeform .textcode h2 {
+  color: #36536b;
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.369230777px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.main .codeform .textcode p {
+  display: flex;
+  max-width: 445px;
+  min-height: 84px;
+  color: #6c8294;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.main .mobconteiner {
+  max-width: 1460px;
+  min-height: 790px;
+  background-image: url("../img/ellipse3.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.main .mobconteiner .mobilebottom {
+  max-width: 1130px;
+  min-height: 500px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 148px;
+  padding-bottom: 148px;
+  align-items: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.main .mobconteiner .mobilebottom .textbottom h2 {
+  color: #36536b;
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.369230777px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.main .mobconteiner .mobilebottom .textbottom p {
+  max-width: 445px;
+  min-height: 46px;
+  color: #6c8294;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.main .mobconteiner .mobilebottom .mobiledbimg {
+  display: flex;
+  gap: 30px;
+}
+.main .mobconteiner .mobilebottom .mobiledbimg .mobilebr {
+  border-radius: 30px;
+}
+.main .infologo {
+  min-height: 335px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 96px;
+}
+.main .infologo .personal_finansec,
+.main .infologo .consumerpayments,
+.main .infologo .bankingcoverage {
+  max-width: 350px;
+  min-height: 279px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main .infologo .personal_finansec h4,
+.main .infologo .consumerpayments h4,
+.main .infologo .bankingcoverage h4 {
+  color: #36536b;
+  font-family: "Public Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: -0.1384615451px;
+  text-align: center;
+  margin-bottom: 16px;
+}
+.main .infologo .personal_finansec .p_style,
+.main .infologo .consumerpayments .p_style,
+.main .infologo .bankingcoverage .p_style {
+  color: #6c8294;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: -0.115384616px;
+  text-align: center;
+}
+.main .infologo .personal_finansec .imgmb,
+.main .infologo .consumerpayments .imgmb,
+.main .infologo .bankingcoverage .imgmb {
+  margin-bottom: 32px;
+}
+.main .formready {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 220px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 96px;
+}
+.main .formready .readystart {
+  color: #36536b;
+  font-family: "DM Serif Display", serif;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  letter-spacing: -0.369230777px;
+  text-align: left;
+}
+.main .formready .mailinput {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fbfcfe;
+  max-width: 445px;
+  height: 48px;
+  border-radius: 24px;
+  overflow: hidden;
+}
+.main .formready .mailinput input {
+  color: #6c8294;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  border: none;
+  outline: none;
+  text-align: left;
+  padding-left: 27px;
+}
+.main .formready .mailinput input::-moz-placeholder {
+  color: #6c8294;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.main .formready .mailinput input::placeholder {
+  color: #6c8294;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.main .formready .mailinput .btn:hover {
+  background-color: #da6d97;
+}
+
+.footer {
+  background-color: #1b262f;
+  background-image: url("../img/botomellipse.png");
+  background-position: right;
+  background-repeat: no-repeat;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer .sectionfooter {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 31px 10px;
+}
+.footer .sectionfooter .logobottom {
+  margin-right: 64px;
+}
+.footer .sectionfooter .botomform {
+  display: flex;
+  min-width: 230px;
+  gap: 40px;
+}
+.footer .sectionfooter .botomform a {
+  color: #fbfcfe;
+  font-family: "Public Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-decoration: none;
+  text-align: left;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+  transition: all ease-in-out 0.5s;
+}
+.footer .sectionfooter .botomform a:hover {
+  opacity: 1;
+}
+.footer .sectionfooter .socian {
+  max-width: 120px;
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  margin-left: auto;
+}
+.footer .sectionfooter .socian svg path {
+  fill: #fbfcfe;
+  transition: all ease-in-out 0.5s;
+}
+.footer .sectionfooter .socian svg:hover path {
+  fill: #da6d97;
+}
+
+.headerPrice {
+  min-height: 283px;
+  background-image: url("../img/pricing/price_t_r.svg");
+}
+.mainPrice {
+  min-height: 779px;
+}
+.mainPrice .fbxP {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: space-between;
+  gap: 30px;
+}
+.mainPrice .fbxP .planP {
+  max-width: 350px;
+}
+.mainPrice .fbxP .planP .hRead {
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.246154px;
+  color: #ba4270;
+  margin-bottom: 16px;
+}
+.mainPrice .fbxP .planP .infoP {
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6c8294;
+  margin-bottom: 8px;
+}
+.mainPrice .fbxP .planP .priceP {
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: -0.430769px;
+  color: #36536b;
+  margin-bottom: 24px;
+}
+.mainPrice .fbxP .planP .borderP {
+  border-top: 1px solid #979797;
+  border-bottom: 1px solid #979797;
+  border-left: none;
+  border-right: none;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+.mainPrice .fbxP .planP .choiceP {
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #36536b;
+}
+.mainPrice .fbxP .planP .choicePhov::before {
+  content: url("../img/pricing/chek_read.svg");
+  margin-right: 24px;
+}
+.mainPrice .fbxP .planP .noChoiceP {
+  margin-left: 37px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  content: none;
+}
+.mainPrice .fbxP .planP .btnP {
+  min-width: 168px;
+  border: 1px solid #36536b;
+  background-color: transparent;
+  color: #36536b;
+  margin-top: 24px;
+}
+.mainPrice .fbxP .planP .btnP:hover {
+  background: #36536b;
+  color: #fbfcfe;
+}
+.mainPrice .formreadyP {
+  padding-top: 96px;
+}
+
+.footer {
+  background-image: url("../img/pricing/pice_ellipse_bot.svg");
+}
+
+.headerAbout {
+  min-height: 330px;
+  background-image: url("../img/about/about_ellspse_top.svg");
+}
+.headerAbout .hConteiner {
+  padding-top: 81px;
+  padding-top: 51px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.headerAbout .hConteiner .hAbout {
+  white-space: pre-wrap;
+  max-width: 730px;
+  padding: 0;
+  margin: 0;
+}
+
+.mainAbout {
+  max-width: 1460px;
+  min-height: 1600px;
+  background-image: url("../img/about/about_ellipse_left.svg");
+  background-position: left top 205px;
+  background-repeat: no-repeat;
+}
+.mainAbout .ourVision {
+  padding-bottom: 100px;
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 56px;
+}
+.mainAbout .imgWidth {
+  max-width: 1460px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.mainAbout .imgWidth .sizeImg {
+  max-width: 1460px;
+  width: 100%;
+}
+.mainAbout .visionBisness {
+  display: flex;
+  justify-content: space-between;
+}
+.mainAbout .visionBisness .ourVisionH {
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.246154px;
+  color: #36536b;
+}
+.mainAbout .visionBisness .ourVisionP {
+  max-width: 635px;
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  color: #6c8294;
+}
+.mainAbout .statistics {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 72px;
+  padding-bottom: 72px;
+  margin-right: auto;
+  margin-left: auto;
+  gap: 30px;
+}
+.mainAbout .statistics .borderAbout {
+  min-width: 350px;
+  border: 1px solid #979797;
+  border-left: none;
+  border-right: none;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.mainAbout .statistics .statH {
+  font-family: "Public Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.7;
+}
+.mainAbout .statistics .statP {
+  font-family: "DM Serif Display", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 72px;
+  letter-spacing: -0.430769px;
+  color: #ba4270;
+}
+
+.headerContact {
+  padding-bottom: 43px;
+}
+.headerContact .cConteiner {
+  padding-top: 90px;
+}
+
+.mainContact {
+  min-height: 737px;
+}
+.mainContact .contactForm {
+  display: flex;
+  justify-content: space-between;
+  gap: 124px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.mainContact .contactForm .mainForm {
+  min-width: 445px;
+  min-height: 492px;
+  display: flex;
+  flex-direction: column;
+}
+.mainContact .contactForm .mainForm .inputC {
+  font-family: "Public Sans", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  background-color: transparent;
+  border: 1px solid #36536b;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  padding: 31px 58px 17px 20px;
+}
+.mainContact .contactForm .mainForm .inputC::-moz-placeholder {
+  font-family: "Public Sans", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.mainContact .contactForm .mainForm .inputC::placeholder {
+  font-family: "Public Sans", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.mainContact .contactForm .mainForm .textareaC {
+  font-family: "Public Sans", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  height: 89px;
+  padding-left: 20px;
+  margin-top: 17px;
+  background-color: transparent;
+  border: 1px solid #36536b;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+}
+.mainContact .contactForm .mainForm .textareaC::-moz-placeholder {
+  font-family: "Public Sans", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.mainContact .contactForm .mainForm .textareaC::placeholder {
+  font-family: "Public Sans", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+.mainContact .contactForm .mainForm .checkboxC {
+  display: flex;
+  align-items: center;
+}
+.mainContact .contactForm .mainForm .checkboxC .checkP {
+  padding-left: 26px;
+  max-width: 395px;
+  margin-top: 31px;
+  margin-bottom: 17px;
+  font-family: "Public Sans", serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  letter-spacing: -0.115385px;
+  color: #36536b;
+}
+.mainContact .contactForm .mainForm .btnC {
+  min-width: 152px;
+  border: 1px solid #36536b;
+  background-color: transparent;
+  color: #36536b;
+  margin-right: auto;
+  margin-left: 0;
+}
+.mainContact .contactForm .mainForm .btnC:hover {
+  background: #36536b;
+  color: #fbfcfe;
+}
+.mainContact .contactForm .contactLogoC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mainContact .contactForm .contactLogoC .contactP {
+  max-width: 445px;
+  font-family: "DM Serif Display", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -0.184615px;
+  color: #36536b;
+  mix-blend-mode: normal;
+  opacity: 0.75;
+  margin-bottom: 40px;
+}
+.mainContact .contactForm .contactLogoC .firmLogosC {
+  max-width: 541px;
+  min-height: 94px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 55px;
+}
+.mainContact .contactForm .contactLogoC .firmLogosC .firstGruopLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 62px;
+}
+.mainContact .contactForm .contactLogoC .firmLogosC .secondGruopLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 87px;
+}
+.mainContact .formreadyC {
+  padding-top: 93px;
+}
+
+@media (max-width: 768px) {
+  .header {
+    min-height: 809px;
+    padding-bottom: 100px;
+    background-image: url("../img/ellipse_top_tab.svg");
+  }
+  .header .fbx {
+    max-width: 689px;
+  }
+  .header .start {
+    align-items: center;
+    flex-direction: column;
+  }
+  .header .start .form {
+    min-height: 225px;
+    align-items: center;
+    order: 2;
+    margin: 0;
+  }
+  .header .start .form h1 {
+    height: 122px;
+    font-family: "DM Serif Display", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.369231px;
+    color: #36536b;
+  }
+  .header .start .mobiletop {
+    margin-top: 48px;
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    order: 1;
+    justify-content: center;
+  }
+  .main {
+    min-height: 2508px;
+  }
+  .main .blackform {
+    padding-top: 88px;
+    padding-bottom: 88px;
+    min-height: 615px;
+    background-image: url("../img/ellipse_center_tab.svg");
+  }
+  .main .blackform .black {
+    flex-direction: column;
+  }
+  .main .blackform .black .workwith {
+    margin-right: auto;
+    margin-left: auto;
+    order: 2;
+  }
+  .main .blackform .black .workwith h2,
+  .main .blackform .black .workwith p {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main .blackform .black .workwith .about {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .main .blackform .black .firmlogos {
+    order: 1;
+    margin-bottom: 23px;
+  }
+  .main .codeform {
+    max-width: 573px;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 0;
+  }
+  .main .codeform .codeimg {
+    padding-bottom: 48px;
+  }
+  .main .codeform .codeimg .codeimgTab {
+    width: 410px;
+    height: 250px;
+  }
+  .main .codeform .textcode h2,
+  .main .codeform .textcode p {
+    max-width: 573px;
+    text-align: center;
+  }
+  .main .mobconteiner {
+    background-image: none;
+  }
+  .main .mobconteiner .mobilebottom {
+    flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .main .mobconteiner .mobilebottom .textbottom {
+    margin-right: auto;
+    margin-left: auto;
+    order: 2;
+  }
+  .main .mobconteiner .mobilebottom .textbottom h2,
+  .main .mobconteiner .mobilebottom .textbottom p {
+    text-align: center;
+  }
+  .main .mobconteiner .mobilebottom .mobiledbimg {
+    margin-bottom: 48px;
+    margin-right: auto;
+    margin-left: auto;
+    order: 1;
+  }
+  .main .formready {
+    flex-direction: column;
+    padding-bottom: 100px;
+    gap: 40px;
+  }
+  footer .sectionfooter {
+    max-width: 689px;
+  }
+}
+@media (max-width: 768px) {
+  .headerPrice {
+    min-height: 179px;
+    padding-bottom: 69px;
+    background-image: url("../img/pricing/ellipse_top_tab_price.svg");
+    background-position: top right;
+  }
+  .headerPrice .hPrice {
+    text-align: center;
+    font-size: 48px;
+  }
+  .mainPrice {
+    min-height: 913px;
+  }
+  .mainPrice .fbxP {
+    max-width: 689px;
+    gap: 10px;
+  }
+  .mainPrice .fbxP .planP .hRead {
+    text-align: center;
+    font-size: 24px;
+  }
+  .mainPrice .fbxP .planP .infoP {
+    text-align: center;
+    margin-bottom: 19px;
+  }
+  .mainPrice .fbxP .planP .priceP {
+    font-size: 48px;
+    text-align: center;
+  }
+  .mainPrice .fbxP .planP .borderP {
+    max-width: 223px;
+    padding-right: 46px;
+    padding-left: 45px;
+  }
+  .mainPrice .fbxP .planP .borderP .choiceP {
+    min-width: 134px;
+  }
+  .mainPrice .fbxP .planP .btnP {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .footer {
+    min-height: 100px;
+  }
+}
+@media (max-width: 768px) {
+  .headerAbout {
+    min-height: 341px;
+    background-image: url("../img/about/ellipse_top_tab_about.svg");
+  }
+  .headerAbout .hConteiner {
+    padding-top: 75px;
+  }
+  .headerAbout .hConteiner .hAbout {
+    font-size: 48px;
+    text-align: center;
+  }
+  .mainAbout {
+    min-height: 1440px;
+    background-image: none;
+    padding-top: 64px;
+  }
+  .mainAbout .ourVision {
+    gap: 64px;
+    padding-bottom: 0;
+  }
+  .mainAbout .ourVision .visionBisness {
+    margin-right: auto;
+    margin-left: auto;
+    gap: 10px;
+  }
+  .mainAbout .ourVision .visionBisness .ourVisionH {
+    min-width: 223px;
+  }
+  .mainAbout .ourVision .visionBisness .ourVisionP {
+    max-width: 456px;
+  }
+  .mainAbout .imgWidth {
+    padding-top: 92px;
+  }
+  .mainAbout .statistics {
+    max-width: 689px;
+  }
+  .mainAbout .statistics .borderAbout {
+    min-width: 223px;
+  }
+  .mainAbout .formready {
+    padding-top: 72px;
+  }
+}
+@media (max-width: 768px) {
+  .headerContact .cConteiner {
+    max-width: 573px;
+  }
+  .headerContact .cConteiner .hContact {
+    font-size: 49px;
+  }
+  .mainContact {
+    min-height: 1115px;
+  }
+  .mainContact .contactForm {
+    flex-direction: column;
+    gap: 64px;
+  }
+  .mainContact .contactForm .mainForm {
+    order: 1;
+  }
+  .mainContact .contactForm .mainForm .inputC,
+  .mainContact .contactForm .mainForm .textareaC,
+  .mainContact .contactForm .mainForm .checkboxC {
+    min-width: 445px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .mainContact .contactForm .mainForm .checkboxC .checkP {
+    margin-bottom: 23px;
+  }
+  .mainContact .contactForm .mainForm .conteinerBtn {
+    min-width: 445px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .mainContact .contactForm .contactLogoC {
+    order: 2;
+  }
+  .mainContact .contactForm .contactLogoC .contactP {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .mainContact .contactForm .contactLogoC .firmLogosC {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+@media (max-width: 375px) {
+  .header {
+    background-image: url("../img/ellipse_mobile_top.svg");
+  }
+  .header .menu {
+    display: none;
+  }
+  .header .btn {
+    display: none;
+    overflow: hidden;
+  }
+  .header .burgerMenu {
+    display: block;
+  }
+  .header .burgerMenu .menu-btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 45px;
+    right: 24px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .header .burgerMenu .menu-btn > span,
+  .header .burgerMenu .menu-btn > span::before,
+  .header .burgerMenu .menu-btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #36536b;
+    transition-duration: 0.25s;
+  }
+  .header .burgerMenu .menu-btn > span::before {
+    content: "";
+    top: -8px;
+  }
+  .header .burgerMenu .menu-btn > span::after {
+    content: "";
+    top: 8px;
+  }
+  .header .burgerMenu .borderBox {
+    min-width: 249px;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    border-top: 1px solid #fbfcfe;
+  }
+  .header .burgerMenu .menuBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    position: fixed;
+    visibility: hidden;
+    padding-top: 95px;
+    top: 0;
+    right: 0;
+    left: -100%;
+    width: 300px;
+    height: 667px;
+    margin-left: auto;
+    background: rgba(27, 38, 47, 0.9);
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    transition-duration: 0.25s;
+  }
+  .header .burgerMenu .menuItem {
+    display: block;
+    font-family: "Public Sans", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #fbfcfe;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+  }
+  .header .burgerMenu .menuItem:hover {
+    opacity: 1;
+  }
+  .header .burgerMenu #menu-toggle {
+    opacity: 0;
+  }
+  .header .burgerMenu #menu-toggle:checked ~ .menu-btn > span {
+    transform: rotate(45deg);
+    background: #fbfcfe;
+  }
+  .header .burgerMenu #menu-toggle:checked ~ .menu-btn > span::before {
+    top: 0;
+    transform: rotate(0);
+    background: #fbfcfe;
+  }
+  .header .burgerMenu #menu-toggle:checked ~ .menu-btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+    background: #fbfcfe;
+  }
+  .header .burgerMenu #menu-toggle:checked ~ .menuBox {
+    visibility: visible;
+    left: 0;
+  }
+  .header .burgerMenu .btnMobile {
+    opacity: 1;
+    width: 250px;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+    background: rgb(186, 66, 112);
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    font-family: "Public Sans", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.115385px;
+    color: #fbfcfe;
+  }
+  .header .start .form {
+    max-width: 327px;
+    flex-direction: column;
+    gap: 24px;
+    order: 2;
+  }
+  .header .start .form h1 {
+    text-align: center;
+    font-size: 32px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.246154px;
+  }
+  .header .start .form .mailinput {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 327px;
+    justify-content: center;
+  }
+  .header .start .form .mailinput input {
+    max-width: 327px;
+  }
+  .header .start .form .btnMobile {
+    display: block;
+    width: 100%;
+    height: 48px;
+    background: #ba4270;
+    border-radius: 24px;
+    border: none;
+    font-family: "Public Sans", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.115385px;
+    color: #fbfcfe;
+  }
+  .header .start .form .spangroup {
+    margin-left: auto;
+    padding-left: 0;
+  }
+  .header .start .mobiletop {
+    order: 1;
+  }
+  .header .start .mobiletop .imgmob {
+    max-width: 128px;
+    min-height: 240px;
+    border-radius: 15px;
+  }
+  .main .blackform {
+    padding-top: 0;
+    background-image: url("../img/black_ellipse_mobile.svg");
+  }
+  .main .blackform .black .workwith h2 {
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: -0.246154px;
+  }
+  .main .blackform .black .workwith p {
+    max-width: 327px;
+    min-height: 140px;
+    text-align: center;
+  }
+  .main .blackform .black .firmlogos {
+    max-width: 280px;
+    min-height: 154px;
+    gap: 50px 45px;
+    justify-content: space-around;
+    margin-bottom: 0;
+    padding-bottom: 56px;
+    padding-top: 80px;
+  }
+  .main .blackform .black .firmlogos .tesla img {
+    width: 106px;
+  }
+  .main .blackform .black .firmlogos .microsoft img {
+    width: 120px;
+  }
+  .main .blackform .black .firmlogos .hp img {
+    width: 115px;
+  }
+  .main .blackform .black .firmlogos .oracle {
+    width: 108px;
+  }
+  .main .blackform .black .firmlogos .oracle img {
+    width: 108px;
+  }
+  .main .blackform .black .firmlogos .google {
+    width: 79px;
+  }
+  .main .blackform .black .firmlogos .google img {
+    width: 79px;
+  }
+  .main .blackform .black .firmlogos .nvidia {
+    width: 113px;
+  }
+  .main .blackform .black .firmlogos .nvidia img {
+    width: 113px;
+  }
+  .main .codeform .textcode h2 {
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.276923px;
+  }
+  .main .mobconteiner {
+    min-height: 482px;
+  }
+  .main .mobconteiner .mobilebottom .textbottom h2 {
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: -0.276923px;
+  }
+  .main .mobconteiner .mobilebottom .mobiledbimg {
+    gap: 24px;
+  }
+  .main .mobconteiner .mobilebottom .mobiledbimg .mobilebr {
+    max-width: 152px;
+    min-height: 290px;
+    border-radius: 18px;
+  }
+  .main .infologo {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=styles.css.map */

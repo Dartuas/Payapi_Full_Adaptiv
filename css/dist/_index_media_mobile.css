@@ -1,0 +1,130 @@
+@media (max-width: 375px) {
+  .header {
+    background-image: url("../img/ellipse_mobile_top.svg");
+  }
+  .header .menu {
+    display: none;
+  }
+  .header .btn {
+    display: none;
+  }
+  .header .mobiletop.imgmob {
+    display: none;
+    visibility: hidden;
+  }
+  .header .burgerMenu {
+    display: block;
+  }
+  .header .burgerMenu .menu-btn {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 51px;
+    right: 24px;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .header .burgerMenu .menu-btn > span,
+.header .burgerMenu .menu-btn > span::before,
+.header .burgerMenu .menu-btn > span::after {
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #36536b;
+    transition-duration: 0.25s;
+  }
+  .header .burgerMenu .menu-btn > span::before {
+    content: "";
+    top: -8px;
+  }
+  .header .burgerMenu .menu-btn > span::after {
+    content: "";
+    top: 8px;
+  }
+  .header .burgerMenu .borderBox {
+    min-width: 249px;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+    border-top: 1px solid #fbfcfe;
+  }
+  .header .burgerMenu .menuBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    position: fixed;
+    visibility: hidden;
+    padding-top: 95px;
+    top: 0;
+    right: 0;
+    left: -100%;
+    width: 300px;
+    height: 667px;
+    margin-left: auto;
+    background: rgba(27, 38, 47, 0.9);
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    transition-duration: 0.25s;
+  }
+  .header .burgerMenu .menuItem {
+    display: block;
+    font-family: "Public Sans", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #fbfcfe;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+  }
+  .header .burgerMenu .menuItem:hover {
+    opacity: 1;
+  }
+  .header .burgerMenu #menu-toggle {
+    opacity: 0;
+  }
+  .header .burgerMenu #menu-toggle:checked ~ .menu-btn > span {
+    transform: rotate(45deg);
+    background: #fbfcfe;
+  }
+  .header .burgerMenu #menu-toggle:checked ~ .menu-btn > span::before {
+    top: 0;
+    transform: rotate(0);
+    background: #fbfcfe;
+  }
+  .header .burgerMenu #menu-toggle:checked ~ .menu-btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+    background: #fbfcfe;
+  }
+  .header .burgerMenu #menu-toggle:checked ~ .menuBox {
+    visibility: visible;
+    left: 0;
+  }
+  .header .burgerMenu .btnMobile {
+    opacity: 1;
+    width: 250px;
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+    background: #ba4270;
+    box-shadow: 10px 10px 25px -10px rgba(54, 83, 107, 0.25);
+    font-family: "Public Sans", serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.115385px;
+    color: #fbfcfe;
+  }
+  .header .start .form {
+    order: 2;
+  }
+  .header .start .mobiletopMobile {
+    order: 1;
+  }
+}

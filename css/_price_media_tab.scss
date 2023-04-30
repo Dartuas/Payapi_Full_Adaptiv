@@ -1,0 +1,53 @@
+@media (max-width: 768px) {
+  .headerPrice {
+    min-height: 179px;
+    padding-bottom: 69px;
+    background-image: url("../img/pricing/ellipse_top_tab_price.svg");
+    background-position: top right;
+    .hPrice {
+      text-align: center;
+      font-size: 48px;
+    }
+  }
+  .mainPrice {
+    min-height: 913px;
+    .fbxP {
+      max-width: 689px;
+      gap: 10px;
+      .planP {
+        // min-height: 615px;
+        .hRead {
+          text-align: center;
+          font-size: 24px;
+        }
+        .infoP {
+          text-align: center;
+          margin-bottom: 19px;
+        }
+        .priceP {
+          font-size: 48px;
+          text-align: center;
+        }
+        .borderP {
+          max-width: 223px;
+          padding-right: 46px;
+          padding-left: 45px;
+          .choiceP {
+            min-width: 134px;
+          }
+        }
+        .btnP {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        }
+      }
+    }
+  }
+  .footer {
+    min-height: 100px;
+  }
+}
